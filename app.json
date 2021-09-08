@@ -1,14 +1,9 @@
 {
-  "pages": [
-    "pages/assistant/index/index",
-    "pages/archive/index/index",
-
-    "pages/dt/service-list/index"
-  ],
+  "pages": ["pages/index/index", "pages/mine/index/index"],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "数字良方",
+    "navigationBarTitleText": "数疗",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -19,14 +14,14 @@
       {
         "iconPath": "/assets/images/icon_helper.png",
         "selectedIconPath": "/assets/images/icon_helper-active.png",
-        "pagePath": "pages/assistant/index/index",
-        "text": "数疗助手"
+        "pagePath": "pages/index/index",
+        "text": "数疗"
       },
       {
         "iconPath": "/assets/images/icon_files.png",
         "selectedIconPath": "/assets/images/icon_files_active.png",
-        "pagePath": "pages/archive/index/index",
-        "text": "健康档案"
+        "pagePath": "pages/mine/index/index",
+        "text": "我的"
       }
     ]
   },

@@ -23,7 +23,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": false,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -37,14 +37,12 @@
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "packageJsonPath": "./package.json",
-    "miniprogramNpmDistDir": "./miniprogram/"
+    "minifyWXSS": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.17.0",
-  "appid": "wx965fbf4a386b3415",
-  "projectname": "%E6%95%B0%E5%AD%97%E8%89%AF%E6%96%B9",
+  "appid": "wxa44a4b2b8f3c0e52",
+  "projectname": "%E4%BF%9D%E9%99%A9",
   "debugOptions": {
     "hidedInDevtools": []
   },
